@@ -1,0 +1,96 @@
+---- rte_memcpy Matches (95 in 52 files) ----
+App_thread.c (examples\qos_sched):#include <rte_memcpy.h>
+Commands.c (app\test):#include <rte_memcpy.h>
+Config.c (app\test-pmd):#include <rte_memcpy.h>
+Config.c (examples\load_balancer):#include <rte_memcpy.h>
+Csumonly.c (app\test-pmd):#include <rte_memcpy.h>
+Csumonly.c (app\test-pmd):#include <rte_memcpy.h>
+Csumonly.c (app\test-pmd):	rte_memcpy(&psd_hdr.src_addr, ip_hdr->src_addr,
+Em_rxtx.c (lib\librte_pmd_e1000):#include <rte_memcpy.h>
+Flib.c (examples\multi_process\l2fwd_fork):#include <rte_memcpy.h>
+Igb_pf.c (lib\librte_pmd_e1000):#include <rte_memcpy.h>
+Igb_pf.c (lib\librte_pmd_e1000):	rte_memcpy(new_mac, vf_mac, ETHER_ADDR_LEN);
+Igb_pf.c (lib\librte_pmd_e1000):		rte_memcpy(vfinfo[vf].vf_mac_addresses, new_mac, 6);
+Igb_rxtx.c (lib\librte_pmd_e1000):#include <rte_memcpy.h>
+Init.c (examples\load_balancer):#include <rte_memcpy.h>
+Init.c (examples\multi_process\client_server_mp\mp_server):#include <rte_memcpy.h>
+Iofwd.c (app\test-pmd):#include <rte_memcpy.h>
+Ixgbe_pf.c (lib\librte_pmd_ixgbe):#include <rte_memcpy.h>
+Ixgbe_pf.c (lib\librte_pmd_ixgbe):	rte_memcpy(new_mac, vf_mac, ETHER_ADDR_LEN);
+Ixgbe_pf.c (lib\librte_pmd_ixgbe):		rte_memcpy(vfinfo[vf].vf_mac_addresses, new_mac, 6);
+Macfwd.c (app\test-pmd):#include <rte_memcpy.h>
+Main.c (examples\exception_path):#include <rte_memcpy.h>
+Main.c (examples\ipv4_frag):#include <rte_memcpy.h>
+Main.c (examples\ipv4_multicast):#include <rte_memcpy.h>
+Main.c (examples\ip_reassembly):#include <rte_memcpy.h>
+Main.c (examples\kni):#include <rte_memcpy.h>
+Main.c (examples\l2fwd):#include <rte_memcpy.h>
+Main.c (examples\l3fwd):#include <rte_memcpy.h>
+Main.c (examples\l3fwd-power):#include <rte_memcpy.h>
+Main.c (examples\l3fwd-vf):#include <rte_memcpy.h>
+Main.c (examples\link_status_interrupt):#include <rte_memcpy.h>
+Main.c (examples\load_balancer):#include <rte_memcpy.h>
+Main.c (examples\multi_process\client_server_mp\mp_server):#include <rte_memcpy.h>
+Main.c (examples\multi_process\l2fwd_fork):#include <rte_memcpy.h>
+Main.c (examples\multi_process\symmetric_mp):#include <rte_memcpy.h>
+Main.c (examples\qos_sched):#include <rte_memcpy.h>
+Main.c (examples\vmdq):#include <rte_memcpy.h>
+Main.c (examples\vmdq):#include <rte_memcpy.h>
+Main.c (examples\vmdq):	(void)(rte_memcpy(eth_conf, &vmdq_conf_default, sizeof(*eth_conf)));
+Main.c (examples\vmdq):	(void)(rte_memcpy(&eth_conf->rx_adv_conf.vmdq_rx_conf, &conf,
+Main.c (examples\vmdq_dcb):#include <rte_memcpy.h>
+Main.c (examples\vmdq_dcb):#include <rte_memcpy.h>
+Main.c (examples\vmdq_dcb):	(void)(rte_memcpy(eth_conf, &vmdq_dcb_conf_default, sizeof(*eth_conf)));
+Main.c (examples\vmdq_dcb):	(void)(rte_memcpy(&eth_conf->rx_adv_conf.vmdq_dcb_conf, &conf,
+Malloc_heap.c (lib\librte_malloc):#include <rte_memcpy.h>
+Rte_ethdev.c (lib\librte_ether):#include <rte_memcpy.h>
+Rte_ether.h (lib\librte_ether):#include <rte_memcpy.h>
+Rte_ether.h (lib\librte_ether):	rte_memcpy(addr, p, ETHER_ADDR_LEN);
+Rte_ether.h (nsfocus\include):#include <rte_memcpy.h>
+Rte_ether.h (nsfocus\include):	rte_memcpy(addr, p, ETHER_ADDR_LEN);
+Rte_eth_pcap.c (lib\librte_pmd_pcap):#include <rte_memcpy.h>
+Rte_eth_pcap.c (lib\librte_pmd_pcap):			rte_memcpy(mbuf->pkt.data, packet, header.len);
+Rte_eth_ring.c (lib\librte_pmd_ring):#include <rte_memcpy.h>
+Rte_hash.c (lib\librte_hash):#include <rte_memcpy.h>
+Rte_hash.c (lib\librte_hash):	rte_memcpy(get_key_from_bucket(h, key_bucket, pos), key, h->key_len);
+Rte_ipv4_frag.h (examples\ipv4_frag):	rte_memcpy(dst, src, sizeof(*dst));
+Rte_lpm6.c (lib\librte_lpm):#include <rte_memcpy.h>
+Rte_lpm6.c (lib\librte_lpm):	rte_memcpy(lpm->rules_tbl[rule_index].ip, ip, RTE_LPM6_IPV6_ADDR_SIZE);
+Rte_malloc.c (lib\librte_malloc):#include <rte_memcpy.h>
+Rte_malloc.c (lib\librte_malloc):	rte_memcpy(new_ptr, ptr, old_size < size ? old_size : size);
+Rte_memcpy.h (lib\librte_eal\common\include):#define rte_memcpy(dst, src, n)              \
+Rte_memcpy.h (lib\librte_eal\common\include):	rte_memcpy_func((dst), (src), (n)))
+Rte_memcpy.h (lib\librte_eal\common\include): * memcpy() function used by rte_memcpy macro
+Rte_memcpy.h (lib\librte_eal\common\include):rte_memcpy_func(void *dst, const void *src, size_t n) __attribute__((always_inline));
+Rte_memcpy.h (lib\librte_eal\common\include):rte_memcpy_func(void *dst, const void *src, size_t n)
+Rte_memcpy.h (nsfocus\include):#define rte_memcpy(dst, src, n)              \
+Rte_memcpy.h (nsfocus\include):	rte_memcpy_func((dst), (src), (n)))
+Rte_memcpy.h (nsfocus\include): * memcpy() function used by rte_memcpy macro
+Rte_memcpy.h (nsfocus\include):rte_memcpy_func(void *dst, const void *src, size_t n) __attribute__((always_inline));
+Rte_memcpy.h (nsfocus\include):rte_memcpy_func(void *dst, const void *src, size_t n)
+Rte_power.c (lib\librte_power):#include <rte_memcpy.h>
+Rte_power.c (lib\librte_power):	rte_memcpy(freqs, pi->freqs, pi->nb_freqs * sizeof(uint32_t));
+Runtime.c (examples\load_balancer):#include <rte_memcpy.h>
+Rxonly.c (app\test-pmd):#include <rte_memcpy.h>
+Testpmd.c (app\test-pmd):#include <rte_memcpy.h>
+Testpmd.c (app\test-pmd):		(void)(rte_memcpy(&eth_conf->rx_adv_conf.vmdq_dcb_conf, &vmdq_rx_conf,
+Testpmd.c (app\test-pmd):		(void)(rte_memcpy(&eth_conf->tx_adv_conf.vmdq_dcb_tx_conf, &vmdq_tx_conf,
+Testpmd.c (app\test-pmd):		(void)(rte_memcpy(&eth_conf->rx_adv_conf.dcb_rx_conf, &rx_conf,
+Testpmd.c (app\test-pmd):		(void)(rte_memcpy(&eth_conf->tx_adv_conf.dcb_tx_conf, &tx_conf,
+Test_mbuf.c (app\test):#include <rte_memcpy.h>
+Test_memcpy.c (app\test):#include <rte_memcpy.h>
+Test_memcpy.c (app\test):	ret = rte_memcpy(dest + off_dst, src + off_src, size);
+Test_memcpy.c (app\test):		printf("rte_memcpy() returned %p, not %p\n",
+Test_memcpy.c (app\test):			printf("rte_memcpy() failed for %u bytes (offsets=%u,%u): "
+Test_memcpy.c (app\test):			printf("rte_memcpy() failed for %u bytes (offsets=%u,%u): "
+Test_memcpy.c (app\test):			printf("rte_memcpy() failed for %u bytes (offsets=%u,%u): "
+Test_memcpy_perf.c (app\test):#include <rte_memcpy.h>
+Test_memcpy_perf.c (app\test):			rte_memcpy(dst+dst_addrs[j], src+src_addrs[j], size);
+Test_memcpy_perf.c (app\test):			rte_memcpy(dst+dst_addrs[t], src+src_addrs[t], size); \
+Test_memcpy_perf.c (app\test):	printf("\n** rte_memcpy() - memcpy perf. tests (C = compile-time constant) **\n"
+Txonly.c (app\test-pmd):#include <rte_memcpy.h>
+Txonly.c (app\test-pmd):#include <rte_memcpy.h>
+Txonly.c (app\test-pmd):		rte_memcpy(seg_buf, buf, (size_t) copy_len);
+Txonly.c (app\test-pmd):	rte_memcpy(seg_buf, buf, (size_t) len);
+Txonly.c (app\test-pmd):		rte_memcpy(((char *) pkt->pkt.data + offset), buf, (size_t) len);
+Virtio_ethdev.c (lib\librte_pmd_virtio):#include <rte_memcpy.h>

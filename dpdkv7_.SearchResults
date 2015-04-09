@@ -1,0 +1,3 @@
+---- igb_ethtool_ops Matches (2 in 1 files) ----
+Igb_ethtool.c (lib\librte_eal\linuxapp\kni\ethtool\igb):static struct ethtool_ops igb_ethtool_ops = {
+Igb_ethtool.c (lib\librte_eal\linuxapp\kni\ethtool\igb):	SET_ETHTOOL_OPS(netdev, &igb_ethtool_ops);
